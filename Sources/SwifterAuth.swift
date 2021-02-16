@@ -136,7 +136,7 @@ public extension Swifter {
             return
         }
         
-        let urlScheme = "swifter-\(client.consumerKey)"
+        let urlScheme = "twitterkit-\(client.consumerKey)"
         
         let nc = NotificationCenter.default
         self.swifterCallbackToken = nc.addObserver(forName: .swifterSSOCallback, object: nil, queue: .main) { notification in

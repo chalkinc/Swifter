@@ -128,7 +128,7 @@ If you authorize with SSO, you should add URL-Scheme your Info.plist.
 		<string>Editor</string>
 		<key>CFBundleURLSchemes</key>
 		<array>
-			<string>swifter-$(TWITTER_CONSUMER_KEY)</string>
+			<string>twitterkit-$(TWITTER_CONSUMER_KEY)</string>
 		</array>
 	</dict>
 </array>
